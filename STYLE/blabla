@@ -1,0 +1,57 @@
+.container {
+    font-family: "WTMonarchNova-Roman";
+    padding: 18px;
+    display: grid;
+    justify-items: stretch;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 18px;
+    grid-template-areas:
+      "uniti img-uniti"
+      "emozione img-uniti"
+      "emozione img-uniti"
+      "img-emozione sguardi"
+      "img-emozione img-sguardi"
+      "didascalia img-sguardi";
+  }
+  
+  .titolo1{
+      grid-area: uniti;
+      padding-left: 2em;
+      text-align: right;
+      
+  }
+  .img1{
+      grid-area: img-uniti;
+      width: 100%;
+      
+  }
+  .titolo2{
+      grid-area: emozione;
+      text-align: left;
+      align-items: end;
+  }
+  .img2{
+      grid-area: img-emozione;
+      width: 100%;
+      
+  }
+  .titolo3{
+      grid-area: sguardi;
+      
+  }
+  .img3{
+      grid-area: img-sguardi;
+      width: 100%;
+  }
+  
+  .didascalia{
+      grid-area: didascalia;
+  }
+
+  .container img{
+    width: 100%;
+    height: auto;
+}
+
+
