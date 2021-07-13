@@ -321,3 +321,33 @@ footer a {
 .didscalia-singola p {
   font-size: 0.8em;
 }
+.mobile{
+  display: block;
+}
+.desktop{
+  display: none;
+}
+@media screen and (min-width:700px) {
+  .mobile{
+    display: none;
+  }
+  .desktop{
+    display: block;
+  }
+  .desktop-mode{
+    display: flex;
+    justify-content: space-between;
+  }
+  .contenitore-link{
+    position: fixed;
+    margin-top: 5em;
+  }
+  .testo-desktop{
+    width: 100%;
+    margin: 0 0 0 20em;
+  }
+  .final-link{
+    margin-top: 2em;
+    border: none;
+  }
+}
