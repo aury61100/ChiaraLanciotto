@@ -238,14 +238,17 @@ footer a {
   display: flex;
   flex-direction: row;
   width: 100%;
+  height: auto;
   justify-content: space-between;
   height: auto;
 }
 .immagine {
   width: 50%;
+  height: auto;
 }
 .immagine img {
   width: 100%;
+  height: auto;
 }
 .margine {
   margin-right: 1em;
@@ -349,5 +352,19 @@ footer a {
   .final-link{
     margin-top: 2em;
     border: none;
+  }
+  .immagine img{
+    width: 100%;
+    height: auto;
+  }
+  .B-N {
+    height: auto;
+    margin: 4em auto;
+  }
+  .CD img{
+    width: 80%;
+  }
+  .foto-cv{
+    width: 30%;
   }
 }
