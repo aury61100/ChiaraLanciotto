@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montaga', serif;
+    font-size: 16px;
+    cursor: none;
+}
+@font-face {
+    font-family: 'Amalfi-coast';
+    src: url(./../../font/Amalfi-Coast.woff);
+}
+h1,h2,h3{
+    font-family: 'Amalfi-coast';
+}
+.ui-loader{
+   display: none;
+}

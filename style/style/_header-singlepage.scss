@@ -1,0 +1,44 @@
+.header-title{
+    width: 100%;
+    height: 100vh;
+    background-blend-mode: darken;
+    background: rgba(0, 0, 0, .65);
+    h2{
+        text-align: center;
+        font-size: 4em;
+        padding-top: 4em;   
+    }
+    h1{
+        font-family: 'Montaga', serif;
+        text-align: center;
+        font-size: 5em;
+        color: $text-negative;
+        margin-top: -1.5em;
+    }
+}
+
+@media (max-width: 700px){
+    .header-title{
+        h2{
+            font-size: 2.5em;  
+        }
+        h1{
+            font-size: 3em;
+        }
+    }
+    
+}
+
+#Michelangelo{
+    background-image: url(./../../images/creazione-di-adamo.webp);
+    background-size: cover;
+}
+#Rinascimento{
+    background-image: url(./../../images/rinascimento-header.webp);
+    background-size: cover;
+}
+#Carra{
+    background-image: url(./../../images/Il-cavaliere-rosso-Carrà.webp);
+    background-size: cover;
+}
+
